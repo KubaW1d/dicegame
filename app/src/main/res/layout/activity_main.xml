@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5DC"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:background="#A52A2A"
+        android:gravity="center"
+        android:text="Gra w kości. Autor: Jakub Widerski"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/rzut"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:background="#D2691E"
+        android:text="RZUĆ KOŚCIAMI"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/pole1"
+            android:layout_width="68dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="9dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="?"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/pole2"
+            android:layout_width="68dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="9dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="?"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/pole3"
+            android:layout_width="68dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="9dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="?"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+
+        <TextView
+            android:id="@+id/pole4"
+            android:layout_width="68dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="9dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="?"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+
+        <TextView
+            android:id="@+id/pole5"
+            android:layout_width="68dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="9dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="?"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/wynik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Wynik tego losowania: 0" />
+
+    <TextView
+        android:id="@+id/wynik1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Wynik gry: 0" />
+
+    <TextView
+        android:id="@+id/liczbarzutow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Liczba rzutów: 0 " />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="15dp"
+        android:background="#D2691E"
+        android:text="RESETUJ WYNIK" />
+
+
+</LinearLayout>
